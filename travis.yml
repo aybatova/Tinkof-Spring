@@ -7,9 +7,3 @@ deploy:
   provider: heroku
   api_key: $HEROKU_KEY
   app: tinkof-spring
-notifications:
-  email:
-    recipients:
-      - evaybatova@gmail.com
-    on_failure: always
-    on_success: change
